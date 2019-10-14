@@ -57,6 +57,7 @@ def word_has_duplicate_letters(word):
     """
     pass # TODO
 
+# Before you do this part, read the sections of the Types lab titled "Using functions to transform and filter lists"
 def get_five_letter_words_without_duplicate_letters(list_of_words):
     """
     Filters a list of words, returning just those which have five letters, and which contain
@@ -64,7 +65,7 @@ def get_five_letter_words_without_duplicate_letters(list_of_words):
     input: a list of strings
     output: a list of strings
     """
-    pass # TODO
+    pass # TODO (You should write this function using a list comprehension)
 
 # There are a few different ways to write this function; some are easier than others. It's a good idea
 # to talk with your group about how you want to do it before diving in.
