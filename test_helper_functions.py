@@ -32,3 +32,5 @@ class TestHelperFunctions(unittest.TestCase):
         self.assertEqual(count_common_letters("mouse", "melon"), 3)
         self.assertEqual(count_common_letters("mouse", "trick"), 0)
 
+#runs all the tests
+unittest.main()
