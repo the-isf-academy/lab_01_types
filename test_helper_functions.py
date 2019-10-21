@@ -10,10 +10,10 @@ from helper_functions import *
 class TestHelperFunctions(unittest.TestCase):
 
     def test_has_five_letters(self):
-        self.assertTrue(has_five_letters("lemon")
-        self.assertTrue(has_five_letters("eagle")
-        self.assertFalse(has_five_letters("eagles")
-        self.assertFalse(has_five_letters("")
+        self.assertTrue(has_five_letters("lemon"))
+        self.assertTrue(has_five_letters("eagle"))
+        self.assertFalse(has_five_letters("eagles"))
+        self.assertFalse(has_five_letters(""))
 
     def test_word_has_duplicate_letters(self):
         self.assertTrue(word_has_duplicate_letters("apple"))
@@ -30,6 +30,5 @@ class TestHelperFunctions(unittest.TestCase):
     def test_count_common_letters(self):
         self.assertEqual(count_common_letters("lemon", "melon"), 5)
         self.assertEqual(count_common_letters("mouse", "melon"), 3)
-        self.assertEqual(count_common_letters("mouse", "trick"), 3)
-
+        self.assertEqual(count_common_letters("mouse", "trick"), 0)
 
